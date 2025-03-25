@@ -1,8 +1,9 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'cropsection_widget.dart' show CropsectionWidget;
+import '/index.dart';
+import 'cropselection_widget.dart' show CropselectionWidget;
 import 'package:flutter/material.dart';
 
-class CropsectionModel extends FlutterFlowModel<CropsectionWidget> {
+class CropselectionModel extends FlutterFlowModel<CropselectionWidget> {
   @override
   void initState(BuildContext context) {}
 

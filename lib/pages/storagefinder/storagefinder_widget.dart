@@ -57,16 +57,7 @@ class _StoragefinderWidgetState extends State<StoragefinderWidget> {
                     Stack(
                       children: [
                         Stack(
-                          children: [
-                            Container(
-                              width: 400.5,
-                              height: 44.8,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .secondaryBackground,
-                              ),
-                            ),
-                          ],
+                          children: [],
                         ),
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(

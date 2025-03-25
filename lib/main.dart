@@ -148,9 +148,9 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'Homepage': HomepageWidget(),
-      'community': CommunityWidget(),
       'PostHarvesting': PostHarvestingWidget(),
       'Sahayak': SahayakWidget(),
+      'Communities': CommunitiesWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -185,21 +185,11 @@ class _NavBarPageState extends State<NavBarPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.people_sharp,
-              size: 24.0,
-            ),
-            label: FFLocalizations.of(context).getText(
-              '8j5eklk5' /* Community */,
-            ),
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
               Icons.fire_truck,
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              'kg7i4hzs' /* Home */,
+              'nkzmr8b4' /* Postharvesting */,
             ),
             tooltip: '',
           ),
@@ -209,7 +199,16 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              '998cif16' /* Home */,
+              'x34d1xt6' /* Home */,
+            ),
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.people_outlined,
+            ),
+            label: FFLocalizations.of(context).getText(
+              'ej154m3d' /* Communities */,
             ),
             tooltip: '',
           )

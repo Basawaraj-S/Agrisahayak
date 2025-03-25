@@ -944,9 +944,7 @@ Shops */
                                                         .override(
                                                           fontFamily:
                                                               'Readex Pro',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .primaryBackground,
+                                                          color: Colors.white,
                                                           letterSpacing: 0.0,
                                                         ),
                                               ),
@@ -954,7 +952,7 @@ Shops */
                                             Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(
-                                                      66.0, 6.0, 0.0, 0.0),
+                                                      66.0, 0.0, 0.0, 0.0),
                                               child: Icon(
                                                 Icons.shopping_cart_outlined,
                                                 color:
@@ -973,7 +971,9 @@ Shops */
                                             width: 81.0,
                                             height: 27.0,
                                             decoration: BoxDecoration(
-                                              color: Color(0xFF859738),
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
                                               borderRadius: BorderRadius.only(
                                                 bottomLeft:
                                                     Radius.circular(20.0),
@@ -983,12 +983,16 @@ Shops */
                                                 topRight: Radius.circular(20.0),
                                               ),
                                             ),
-                                            child: Icon(
-                                              Icons.arrow_forward,
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryText,
-                                              size: 24.0,
+                                            child: Align(
+                                              alignment: AlignmentDirectional(
+                                                  0.0, 0.0),
+                                              child: Icon(
+                                                Icons.arrow_forward,
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryText,
+                                                size: 24.0,
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -1012,24 +1016,69 @@ Shops */
                                       topRight: Radius.circular(10.0),
                                     ),
                                   ),
-                                  child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 30.0, 0.0, 0.0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'tx30tg3y' /* Near By
-storage  */
-                                        ,
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 1.0, 0.0, 0.0),
+                                        child: Icon(
+                                          Icons.shopping_cart_outlined,
+                                          color: FlutterFlowTheme.of(context)
+                                              .primaryText,
+                                          size: 24.0,
+                                        ),
                                       ),
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .override(
-                                            fontFamily: 'Readex Pro',
-                                            color: Colors.white,
-                                            letterSpacing: 0.0,
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 4.0, 0.0, 0.0),
+                                        child: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'tx30tg3y' /* Near By
+storage  */
+                                            ,
                                           ),
-                                    ),
+                                          textAlign: TextAlign.center,
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyMedium
+                                              .override(
+                                                fontFamily: 'Readex Pro',
+                                                color: Colors.white,
+                                                letterSpacing: 0.0,
+                                              ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 2.0, 0.0, 0.0),
+                                        child: Container(
+                                          width: 81.0,
+                                          height: 27.0,
+                                          decoration: BoxDecoration(
+                                            color: FlutterFlowTheme.of(context)
+                                                .alternate,
+                                            borderRadius: BorderRadius.only(
+                                              bottomLeft: Radius.circular(20.0),
+                                              bottomRight:
+                                                  Radius.circular(20.0),
+                                              topLeft: Radius.circular(20.0),
+                                              topRight: Radius.circular(20.0),
+                                            ),
+                                          ),
+                                          child: Align(
+                                            alignment:
+                                                AlignmentDirectional(0.0, 0.0),
+                                            child: Icon(
+                                              Icons.arrow_forward,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryText,
+                                              size: 24.0,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),

@@ -77,18 +77,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? NavBarPage() : SignupPageWidget(),
+          appStateNotifier.loggedIn ? NavBarPage() : CropselectionWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? NavBarPage() : SignupPageWidget(),
-        ),
-        FFRoute(
-          name: SignupPageWidget.routeName,
-          path: SignupPageWidget.routePath,
-          builder: (context, params) => SignupPageWidget(),
+              appStateNotifier.loggedIn ? NavBarPage() : CropselectionWidget(),
         ),
         FFRoute(
           name: HomepageWidget.routeName,
@@ -115,9 +110,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: CommunityWidget.routeName,
           path: CommunityWidget.routePath,
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'community')
-              : CommunityWidget(),
+          builder: (context, params) => CommunityWidget(),
         ),
         FFRoute(
           name: PostHarvestingWidget.routeName,
@@ -134,9 +127,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : SahayakWidget(),
         ),
         FFRoute(
-          name: CropsectionWidget.routeName,
-          path: CropsectionWidget.routePath,
-          builder: (context, params) => CropsectionWidget(),
+          name: CropselectionWidget.routeName,
+          path: CropselectionWidget.routePath,
+          builder: (context, params) => CropselectionWidget(),
+        ),
+        FFRoute(
+          name: SoilreportWidget.routeName,
+          path: SoilreportWidget.routePath,
+          builder: (context, params) => SoilreportWidget(),
+        ),
+        FFRoute(
+          name: CommunitiesWidget.routeName,
+          path: CommunitiesWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'Communities')
+              : CommunitiesWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -307,7 +312,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/signupPage';
+            return '/cropselection';
           }
           return null;
         },

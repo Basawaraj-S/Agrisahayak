@@ -1,3 +1,4 @@
+import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -45,6 +46,38 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: Color(0xFFD9D9D9),
+        appBar: AppBar(
+          backgroundColor: FlutterFlowTheme.of(context).primary,
+          automaticallyImplyLeading: false,
+          leading: FlutterFlowIconButton(
+            borderColor: Colors.transparent,
+            borderRadius: 30.0,
+            borderWidth: 1.0,
+            buttonSize: 60.0,
+            icon: Icon(
+              Icons.arrow_back_rounded,
+              color: Colors.white,
+              size: 30.0,
+            ),
+            onPressed: () async {
+              context.pop();
+            },
+          ),
+          title: Text(
+            FFLocalizations.of(context).getText(
+              'l7yxp2h0' /* Page Title */,
+            ),
+            style: FlutterFlowTheme.of(context).headlineMedium.override(
+                  fontFamily: 'Inter',
+                  color: Colors.white,
+                  fontSize: 22.0,
+                  letterSpacing: 0.0,
+                ),
+          ),
+          actions: [],
+          centerTitle: true,
+          elevation: 2.0,
+        ),
         body: SafeArea(
           top: true,
           child: Stack(
@@ -70,69 +103,15 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                       decoration: BoxDecoration(),
                                       child: Stack(
                                         children: [
-                                          Container(
-                                            width: 397.9,
-                                            height: 43.7,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
-                                            ),
-                                            child: Stack(
-                                              children: [
-                                                Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(15.0, 10.0,
-                                                          350.0, 0.0),
-                                                  child: Icon(
-                                                    Icons.arrow_back,
-                                                    color: FlutterFlowTheme.of(
-                                                            context)
-                                                        .primaryText,
-                                                    size: 24.0,
-                                                  ),
-                                                ),
-                                                Align(
-                                                  alignment:
-                                                      AlignmentDirectional(
-                                                          -0.88, -0.72),
-                                                  child: Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(28.0,
-                                                                11.0, 0.0, 0.0),
-                                                    child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'iegj37li' /* Shopes */,
-                                                      ),
-                                                      textAlign:
-                                                          TextAlign.start,
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily:
-                                                                'Readex Pro',
-                                                            fontSize: 16.0,
-                                                            letterSpacing: 0.0,
-                                                          ),
-                                                    ),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                          ),
                                           Align(
                                             alignment: AlignmentDirectional(
-                                                -0.34, -0.86),
+                                                -0.84, -0.95),
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(
                                                       10.0, 0.0, 0.0, 0.0),
                                               child: Container(
-                                                width: 366.31,
+                                                width: 366.3,
                                                 height: 40.8,
                                                 decoration: BoxDecoration(
                                                   color: FlutterFlowTheme.of(
@@ -147,7 +126,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                           ),
                                           Align(
                                             alignment: AlignmentDirectional(
-                                                -0.88, -0.76),
+                                                -0.85, -0.8),
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
@@ -158,6 +137,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                   .bodyMedium
                                                   .override(
                                                     fontFamily: 'Readex Pro',
+                                                    fontSize: 18.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),

@@ -144,45 +144,6 @@ bool _isSupportedLocale(Locale locale) {
 }
 
 final kTranslationsMap = <Map<String, Map<String, String>>>[
-  // Signup_page
-  {
-    'xgjcruvv': {
-      'en': 'Agri Sahayak',
-      'kn': 'ಕೃಷಿ ಸಹಾಯಕ್',
-    },
-    'ammmo8y8': {
-      'en': 'Get Started',
-      'kn': 'ಪ್ರಾರಂಭಿಸಲು ಒತ್ತಿ',
-    },
-    '5nw5yl2a': {
-      'en': 'Let\'s get started by filling out the form below.',
-      'kn': 'ಕೆಳಗಿನ ಫಾರ್ಮ್ ಅನ್ನು ಭರ್ತಿ ಮಾಡುವ ಮೂಲಕ ಪ್ರಾರಂಭಿಸೋಣ.',
-    },
-    'udsoexpo': {
-      'en': 'Email',
-      'kn': 'ಇಮೇಲ್',
-    },
-    'd3cd9pyx': {
-      'en': 'Password',
-      'kn': 'ಪಾಸ್ವರ್ಡ್',
-    },
-    'k72dfrkq': {
-      'en': 'Log in',
-      'kn': 'ಖಾತೆ ರಚಿಸಿ',
-    },
-    'gx1kewas': {
-      'en': 'Don\'t have an account?  ',
-      'kn': 'ಖಾತೆ ಇಲ್ಲವೇ?',
-    },
-    '8j8gs3sf': {
-      'en': 'Sign Up here',
-      'kn': 'ಇಲ್ಲಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ',
-    },
-    '0b3b95n0': {
-      'en': 'Home',
-      'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
-    },
-  },
   // Homepage
   {
     'u13nfafp': {
@@ -357,13 +318,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // field
   {
-    'hgzzer3z': {
-      'en': 'My Field ',
-      'kn': 'ನನ್ನ ಕ್ಷೇತ್ರ',
+    'q9md3tok': {
+      'en': 'My Field',
+      'kn': '',
     },
-    'bjpvgox9': {
+    '39c7ma1c': {
       'en': 'Home',
-      'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
+      'kn': '',
     },
   },
   // storagefinder
@@ -475,10 +436,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // nearbyshops
   {
-    'iegj37li': {
-      'en': 'Shopes',
-      'kn': 'ಅಂಗಡಿಗಳು',
-    },
     '55bl4qst': {
       'en': 'Categories',
       'kn': '',
@@ -603,6 +560,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Chat',
       'kn': 'ಚಾಟ್ ಮಾಡಿ',
     },
+    'l7yxp2h0': {
+      'en': 'Page Title',
+      'kn': '',
+    },
     'sjtens5e': {
       'en': 'Home',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
@@ -610,30 +571,46 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // community
   {
-    '8j5eklk5': {
+    '4oxe7c4w': {
+      'en': 'Community',
+      'kn': '',
+    },
+    '5koje9xb': {
       'en': 'Community',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
   // PostHarvesting
   {
-    'kg7i4hzs': {
-      'en': 'Home',
+    'dmxxadvj': {
+      'en': 'Post Harvesting',
+      'kn': '',
+    },
+    'raiyzhah': {
+      'en': 'Current Market Price ',
+      'kn': '',
+    },
+    'lk4fpfgc': {
+      'en': 'For You ',
+      'kn': '',
+    },
+    'nkzmr8b4': {
+      'en': 'Postharvesting',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
   // Sahayak
   {
-    'rc2sjqof': {
-      'en': 'Page Title',
+    'xf540kmk': {
+      'en': 'Sahayak',
       'kn': '',
     },
-    '998cif16': {
+    'x34d1xt6': {
       'en': 'Home',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
-  // cropsection
+  // cropselection
   {
     '7no8tw2o': {
       'en': 'Select your crops',
@@ -643,13 +620,235 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Next',
       'kn': '',
     },
-    '6adli0fg': {
+    '67xtoucv': {
       'en': 'Home',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
+  // Soilreport
+  {
+    'vdnojm0i': {
+      'en': 'Soil Report Upload',
+      'kn': '',
+    },
+    'tp88vu36': {
+      'en': 'Upload Soil Report',
+      'kn': '',
+    },
+    'mol0y6r4': {
+      'en': 'Tap to upload PDF or image',
+      'kn': '',
+    },
+    'lqvv1sr9': {
+      'en': 'Basic Soil Information',
+      'kn': '',
+    },
+    'l634fynp': {
+      'en': 'Soil Type',
+      'kn': '',
+    },
+    'sd03oyrm': {
+      'en': 'e.g. Clay, Sandy, Loam',
+      'kn': '',
+    },
+    '4a8z5sg5': {
+      'en': 'pH Level',
+      'kn': '',
+    },
+    'nukxhm2u': {
+      'en': 'e.g. 6.5',
+      'kn': '',
+    },
+    'd8m7ni0q': {
+      'en': 'Organic Matter (%)',
+      'kn': '',
+    },
+    '3n9tounm': {
+      'en': 'e.g. 3.5',
+      'kn': '',
+    },
+    '82o4onbv': {
+      'en': 'Nitrogen Level (ppm)',
+      'kn': '',
+    },
+    '1rxzf2lt': {
+      'en': 'e.g. 45',
+      'kn': '',
+    },
+    '6bfj4ynr': {
+      'en': 'Phosphorus Level (ppm)',
+      'kn': '',
+    },
+    'sjrqt20v': {
+      'en': 'e.g. 30',
+      'kn': '',
+    },
+    '4awrrhml': {
+      'en': 'Potassium Level (ppm)',
+      'kn': '',
+    },
+    'uq8x0ob3': {
+      'en': 'e.g. 180',
+      'kn': '',
+    },
+    'n5jua5xr': {
+      'en': 'Notes',
+      'kn': '',
+    },
+    'gp79aw2w': {
+      'en': 'Additional observations or comments',
+      'kn': '',
+    },
+    'vm9edx96': {
+      'en': 'Next',
+      'kn': '',
+    },
+  },
+  // Communities
+  {
+    'w5wgikva': {
+      'en': 'Search discussions...',
+      'kn': '',
+    },
+    '12lyynlr': {
+      'en': 'All Posts',
+      'kn': '',
+    },
+    'k3x2f2mm': {
+      'en': 'Crop Issues',
+      'kn': '',
+    },
+    'zzmhfe6s': {
+      'en': 'Market Trends',
+      'kn': '',
+    },
+    'oorhjtte': {
+      'en': 'Government Schemes',
+      'kn': '',
+    },
+    '4zx3v79w': {
+      'en': 'Equipment',
+      'kn': '',
+    },
+    'os6fagu5': {
+      'en': 'PINNED',
+      'kn': '',
+    },
+    'm590qt2n': {
+      'en': 'EXPERT',
+      'kn': '',
+    },
+    'utwt6ncy': {
+      'en':
+          'New government subsidy for organic farming available. Apply before June 30th!',
+      'kn': '',
+    },
+    '9vr0uhoz': {
+      'en': 'Tap to learn more about eligibility and application process',
+      'kn': '',
+    },
+    'n02rdwqx': {
+      'en': 'Rajesh Kumar',
+      'kn': '',
+    },
+    'f2pd8u5w': {
+      'en': 'Punjab, India',
+      'kn': '',
+    },
+    '8wx9v69b': {
+      'en': 'Active Contributor',
+      'kn': '',
+    },
+    'y2bbzuuf': {
+      'en':
+          'Has anyone tried the new drought-resistant wheat variety? I\'m considering it for next season but would like to hear some first-hand experiences.',
+      'kn': '',
+    },
+    'oefmqf3s': {
+      'en': '24',
+      'kn': '',
+    },
+    '62u275b5': {
+      'en': '8',
+      'kn': '',
+    },
+    'z1ngn38v': {
+      'en': '2 hours ago',
+      'kn': '',
+    },
+    'zsutwnn6': {
+      'en': 'Priya Sharma',
+      'kn': '',
+    },
+    'q3363jtu': {
+      'en': 'Maharashtra, India',
+      'kn': '',
+    },
+    '3mcvt2er': {
+      'en': 'Expert Farmer',
+      'kn': '',
+    },
+    'mybm56fi': {
+      'en':
+          'Market update: Tomato prices expected to rise next month due to reduced planting. Consider holding your harvest if possible.',
+      'kn': '',
+    },
+    'fow2ogs0': {
+      'en': '42',
+      'kn': '',
+    },
+    '8qqwrndq': {
+      'en': '15',
+      'kn': '',
+    },
+    'nrxmnthp': {
+      'en': '5 hours ago',
+      'kn': '',
+    },
+    'fdisx1bg': {
+      'en': 'Mohan Singh',
+      'kn': '',
+    },
+    'jrell4yp': {
+      'en': 'Uttar Pradesh, India',
+      'kn': '',
+    },
+    'n0vsvotf': {
+      'en':
+          'I\'ve been using this natural pest control method for my cotton crop. Mix neem oil, garlic extract and soap in water. Spray weekly for best results.',
+      'kn': '',
+    },
+    'fvju82y7': {
+      'en': '36',
+      'kn': '',
+    },
+    '7qc0jd43': {
+      'en': '22',
+      'kn': '',
+    },
+    '9o7z1l6h': {
+      'en': '1 day ago',
+      'kn': '',
+    },
+    'l3q5i8gt': {
+      'en': 'Community',
+      'kn': '',
+    },
+    'ej154m3d': {
+      'en': 'Communities',
+      'kn': '',
+    },
+  },
   // Miscellaneous
   {
+    'q4jw3ibs': {
+      'en': '',
+      'kn': '',
+    },
+    'zmhx9xke': {
+      'en': '',
+      'kn': '',
+    },
     '5ugk5w6o': {
       'en': '',
       'kn': '',
