@@ -420,7 +420,7 @@ class _SignupPageWidgetState extends State<SignupPageWidget>
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'k72dfrkq' /* Create Account */,
+                                          'k72dfrkq' /* Log in */,
                                         ),
                                         options: FFButtonOptions(
                                           width: double.infinity,

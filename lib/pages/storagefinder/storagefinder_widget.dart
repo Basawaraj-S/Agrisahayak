@@ -65,59 +65,6 @@ class _StoragefinderWidgetState extends State<StoragefinderWidget> {
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
                               ),
-                              child: Stack(
-                                children: [
-                                  Stack(
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            32.0, 15.0, 0.0, 0.0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '1h369wz6' /* Storage  */,
-                                          ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'Readex Pro',
-                                                fontSize: 16.0,
-                                                letterSpacing: 0.0,
-                                              ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            270.0, 16.0, 0.0, 0.0),
-                                        child: Icon(
-                                          Icons.location_on,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryText,
-                                          size: 20.0,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                  Align(
-                                    alignment: AlignmentDirectional(-1.1, -0.9),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          290.0, 18.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'z2g0yn37' /* Kalaburagi */,
-                                        ),
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
                             ),
                           ],
                         ),
@@ -147,6 +94,29 @@ class _StoragefinderWidgetState extends State<StoragefinderWidget> {
                             topLeft: Radius.circular(5.0),
                             topRight: Radius.circular(5.0),
                           ),
+                        ),
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: AlignmentDirectional(-1.3, -2.98),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    290.0, 18.0, 0.0, 0.0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'z2g0yn37' /* Kalaburagi */,
+                                  ),
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        fontSize: 14.0,
+                                        letterSpacing: 0.0,
+                                      ),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -235,7 +205,7 @@ class _StoragefinderWidgetState extends State<StoragefinderWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(-0.9, -0.68),
+                      alignment: AlignmentDirectional(-0.92, -0.71),
                       child: Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(
                             15.0, 12.0, 0.0, 0.0),

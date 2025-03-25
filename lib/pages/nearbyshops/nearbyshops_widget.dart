@@ -82,7 +82,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                               children: [
                                                 Padding(
                                                   padding: EdgeInsetsDirectional
-                                                      .fromSTEB(0.0, 10.0,
+                                                      .fromSTEB(15.0, 10.0,
                                                           350.0, 0.0),
                                                   child: Icon(
                                                     Icons.arrow_back,
@@ -92,25 +92,33 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                     size: 24.0,
                                                   ),
                                                 ),
-                                                Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(
-                                                          28.0, 11.0, 0.0, 0.0),
-                                                  child: Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'iegj37li' /* Shopes */,
+                                                Align(
+                                                  alignment:
+                                                      AlignmentDirectional(
+                                                          -0.88, -0.72),
+                                                  child: Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(28.0,
+                                                                11.0, 0.0, 0.0),
+                                                    child: Text(
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'iegj37li' /* Shopes */,
+                                                      ),
+                                                      textAlign:
+                                                          TextAlign.start,
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'Readex Pro',
+                                                            fontSize: 16.0,
+                                                            letterSpacing: 0.0,
+                                                          ),
                                                     ),
-                                                    textAlign: TextAlign.start,
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily:
-                                                              'Readex Pro',
-                                                          fontSize: 16.0,
-                                                          letterSpacing: 0.0,
-                                                        ),
                                                   ),
                                                 ),
                                               ],
@@ -119,16 +127,40 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                           Align(
                                             alignment: AlignmentDirectional(
                                                 -0.34, -0.86),
-                                            child: Container(
-                                              width: 366.31,
-                                              height: 40.8,
-                                              decoration: BoxDecoration(
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .secondaryBackground,
-                                                borderRadius:
-                                                    BorderRadius.circular(10.0),
+                                            child: Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(
+                                                      10.0, 0.0, 0.0, 0.0),
+                                              child: Container(
+                                                width: 366.31,
+                                                height: 40.8,
+                                                decoration: BoxDecoration(
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryBackground,
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          10.0),
+                                                ),
                                               ),
+                                            ),
+                                          ),
+                                          Align(
+                                            alignment: AlignmentDirectional(
+                                                -0.88, -0.76),
+                                            child: Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '55bl4qst' /* Categories */,
+                                              ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                           ),
                                         ],
@@ -138,7 +170,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      18.0, 120.0, 0.0, 0.0),
+                                      16.0, 124.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
                                     height: 61.8,
@@ -157,7 +189,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  30.0, 30.0, 0.0, 0.0),
+                                                  30.0, 34.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'pmmlicm6' /* Seeds */,
@@ -187,7 +219,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      148.0, 120.0, 0.0, 0.0),
+                                      148.0, 124.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
                                     height: 61.8,
@@ -198,31 +230,43 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                     ),
                                     child: Stack(
                                       children: [
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  20.0, 30.0, 0.0, 0.0),
-                                          child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '0a8t3618' /* Fertilizer */,
+                                        Align(
+                                          alignment: AlignmentDirectional(
+                                              -0.76, -0.68),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    20.0, 34.0, 0.0, 0.0),
+                                            child: Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '0a8t3618' /* Fertilizer */,
+                                              ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily:
+                                                            'Readex Pro',
+                                                        letterSpacing: 0.0,
+                                                      ),
                                             ),
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  fontFamily: 'Readex Pro',
-                                                  letterSpacing: 0.0,
-                                                ),
                                           ),
                                         ),
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  38.0, 5.0, 0.0, 0.0),
-                                          child: FaIcon(
-                                            FontAwesomeIcons.bong,
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryText,
-                                            size: 20.0,
+                                        Align(
+                                          alignment: AlignmentDirectional(
+                                              -0.95, -0.79),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    42.0, 8.0, 0.0, 0.0),
+                                            child: FaIcon(
+                                              FontAwesomeIcons.bong,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryText,
+                                              size: 20.0,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -231,7 +275,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      280.0, 120.0, 0.0, 0.0),
+                                      280.0, 124.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
                                     height: 61.8,
@@ -245,7 +289,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  15.0, 30.0, 0.0, 0.0),
+                                                  18.0, 34.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'i3lobrek' /* Pesticides */,
@@ -261,7 +305,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  35.0, 5.0, 0.0, 0.0),
+                                                  38.0, 8.0, 0.0, 0.0),
                                           child: Icon(
                                             Icons.adb,
                                             color: FlutterFlowTheme.of(context)
@@ -275,7 +319,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      18.0, 210.0, 0.0, 0.0),
+                                      18.0, 200.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
                                     height: 61.8,
@@ -286,31 +330,43 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                     ),
                                     child: Stack(
                                       children: [
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  30.0, 30.0, 0.0, 0.0),
-                                          child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              's9a4xh7l' /* Tools */,
+                                        Align(
+                                          alignment:
+                                              AlignmentDirectional(-0.9, -1.05),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    30.0, 33.0, 0.0, 0.0),
+                                            child: Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                's9a4xh7l' /* Tools */,
+                                              ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily:
+                                                            'Readex Pro',
+                                                        letterSpacing: 0.0,
+                                                      ),
                                             ),
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  fontFamily: 'Readex Pro',
-                                                  letterSpacing: 0.0,
-                                                ),
                                           ),
                                         ),
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  35.0, 5.0, 0.0, 0.0),
-                                          child: FaIcon(
-                                            FontAwesomeIcons.tools,
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryText,
-                                            size: 18.0,
+                                        Align(
+                                          alignment: AlignmentDirectional(
+                                              -0.78, -0.88),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    36.0, 6.0, 0.0, 0.0),
+                                            child: FaIcon(
+                                              FontAwesomeIcons.tools,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryText,
+                                              size: 18.0,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -319,10 +375,10 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      148.0, 210.0, 0.0, 0.0),
+                                      148.0, 200.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
-                                    height: 61.8,
+                                    height: 60.0,
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
@@ -333,7 +389,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  18.0, 30.0, 0.0, 0.0),
+                                                  20.0, 30.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'zqoay14d' /* Irrigation */,
@@ -346,15 +402,20 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                 ),
                                           ),
                                         ),
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  35.0, 5.0, 0.0, 0.0),
-                                          child: Icon(
-                                            Icons.water_drop,
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryText,
-                                            size: 20.0,
+                                        Align(
+                                          alignment: AlignmentDirectional(
+                                              -1.02, -1.08),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    41.0, 6.0, 0.0, 0.0),
+                                            child: Icon(
+                                              Icons.water_drop,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryText,
+                                              size: 20.0,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -363,7 +424,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      280.0, 210.0, 0.0, 0.0),
+                                      280.0, 200.0, 0.0, 0.0),
                                   child: Container(
                                     width: 100.0,
                                     height: 61.8,
@@ -380,7 +441,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                   23.0, 30.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'lrcgs3ev' /* organic */,
+                                              'lrcgs3ev' /* Organic */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -390,15 +451,20 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                 ),
                                           ),
                                         ),
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  35.0, 5.0, 0.0, 0.0),
-                                          child: FaIcon(
-                                            FontAwesomeIcons.leaf,
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryText,
-                                            size: 20.0,
+                                        Align(
+                                          alignment: AlignmentDirectional(
+                                              -0.83, -0.91),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    36.0, 5.0, 0.0, 0.0),
+                                            child: FaIcon(
+                                              FontAwesomeIcons.leaf,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryText,
+                                              size: 20.0,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -711,16 +777,20 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                   size: 20.0,
                                                 ),
                                               ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        150.0, 68.0, 0.0, 0.0),
-                                                child: Icon(
-                                                  Icons.location_on,
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryText,
-                                                  size: 20.0,
+                                              Align(
+                                                alignment: AlignmentDirectional(
+                                                    -1.01, -1.05),
+                                                child: Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(150.0, 68.0,
+                                                          0.0, 0.0),
+                                                  child: Icon(
+                                                    Icons.star_rate,
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primaryText,
+                                                    size: 20.0,
+                                                  ),
                                                 ),
                                               ),
                                             ],
@@ -857,39 +927,57 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                               ),
                                               child: Stack(
                                                 children: [
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(32.0, 8.0,
-                                                                0.0, 0.0),
-                                                    child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        '0nexbgzw' /* Chat */,
+                                                  Align(
+                                                    alignment:
+                                                        AlignmentDirectional(
+                                                            -0.29, -1.05),
+                                                    child: Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  32.0,
+                                                                  8.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: Text(
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '0nexbgzw' /* Chat */,
+                                                        ),
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Readex Pro',
+                                                                  letterSpacing:
+                                                                      0.0,
+                                                                ),
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily:
-                                                                'Readex Pro',
-                                                            letterSpacing: 0.0,
-                                                          ),
                                                     ),
                                                   ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(10.0, 8.0,
-                                                                0.0, 0.0),
-                                                    child: Icon(
-                                                      Icons.chat,
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .primaryText,
-                                                      size: 18.0,
+                                                  Align(
+                                                    alignment:
+                                                        AlignmentDirectional(
+                                                            -0.85, -0.78),
+                                                    child: Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  10.0,
+                                                                  8.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: Icon(
+                                                        Icons.chat,
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
+                                                        size: 18.0,
+                                                      ),
                                                     ),
                                                   ),
                                                 ],
@@ -1123,16 +1211,20 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                   size: 20.0,
                                                 ),
                                               ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        150.0, 68.0, 0.0, 0.0),
-                                                child: Icon(
-                                                  Icons.location_on,
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryText,
-                                                  size: 20.0,
+                                              Align(
+                                                alignment: AlignmentDirectional(
+                                                    -1.01, -1.02),
+                                                child: Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(150.0, 68.0,
+                                                          0.0, 0.0),
+                                                  child: Icon(
+                                                    Icons.star,
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primaryText,
+                                                    size: 20.0,
+                                                  ),
                                                 ),
                                               ),
                                             ],
@@ -1269,39 +1361,57 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                               ),
                                               child: Stack(
                                                 children: [
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(32.0, 8.0,
-                                                                0.0, 0.0),
-                                                    child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        '2plmwj0q' /* Chat */,
+                                                  Align(
+                                                    alignment:
+                                                        AlignmentDirectional(
+                                                            -0.66, -1.4),
+                                                    child: Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  32.0,
+                                                                  8.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: Text(
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '2plmwj0q' /* Chat */,
+                                                        ),
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Readex Pro',
+                                                                  letterSpacing:
+                                                                      0.0,
+                                                                ),
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily:
-                                                                'Readex Pro',
-                                                            letterSpacing: 0.0,
-                                                          ),
                                                     ),
                                                   ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(10.0, 8.0,
-                                                                0.0, 0.0),
-                                                    child: Icon(
-                                                      Icons.chat,
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .primaryText,
-                                                      size: 18.0,
+                                                  Align(
+                                                    alignment:
+                                                        AlignmentDirectional(
+                                                            -0.79, -1.05),
+                                                    child: Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  10.0,
+                                                                  8.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: Icon(
+                                                        Icons.chat,
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
+                                                        size: 18.0,
+                                                      ),
                                                     ),
                                                   ),
                                                 ],
@@ -1535,16 +1645,20 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
                                                   size: 20.0,
                                                 ),
                                               ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        150.0, 68.0, 0.0, 0.0),
-                                                child: Icon(
-                                                  Icons.location_on,
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryText,
-                                                  size: 20.0,
+                                              Align(
+                                                alignment: AlignmentDirectional(
+                                                    -1.0, -1.01),
+                                                child: Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(150.0, 68.0,
+                                                          0.0, 0.0),
+                                                  child: Icon(
+                                                    Icons.star_half,
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primaryText,
+                                                    size: 20.0,
+                                                  ),
                                                 ),
                                               ),
                                             ],

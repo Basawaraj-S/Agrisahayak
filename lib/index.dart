@@ -5,7 +5,7 @@ export '/pages/field/field_widget.dart' show FieldWidget;
 export '/pages/storagefinder/storagefinder_widget.dart'
     show StoragefinderWidget;
 export '/pages/nearbyshops/nearbyshops_widget.dart' show NearbyshopsWidget;
-export '/phonenumber/phonenumber_widget.dart' show PhonenumberWidget;
-export '/otp/otp_widget.dart' show OtpWidget;
-export '/storagefind/storagefind_widget.dart' show StoragefindWidget;
-export '/home2/home2_widget.dart' show Home2Widget;
+export '/community/community_widget.dart' show CommunityWidget;
+export '/post_harvesting/post_harvesting_widget.dart' show PostHarvestingWidget;
+export '/sahayak/sahayak_widget.dart' show SahayakWidget;
+export '/cropsection/cropsection_widget.dart' show CropsectionWidget;

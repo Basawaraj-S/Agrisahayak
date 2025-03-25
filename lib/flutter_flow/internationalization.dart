@@ -167,7 +167,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'kn': 'ಪಾಸ್ವರ್ಡ್',
     },
     'k72dfrkq': {
-      'en': 'Create Account',
+      'en': 'Log in',
       'kn': 'ಖಾತೆ ರಚಿಸಿ',
     },
     'gx1kewas': {
@@ -192,6 +192,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '6dktk00k': {
       'en': 'kalaburagi , Karnataka ',
       'kn': 'ಕಲಬುರಗಿ, ಕರ್ನಾಟಕ',
+    },
+    'ah2qofoq': {
+      'en': 'Search',
+      'kn': '',
     },
     'jen8vtzr': {
       'en': 'Today\'s Weather',
@@ -246,16 +250,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'kn': '3 ಎಕರೆ',
     },
     'poxu5f60': {
-      'en': '3,564/kg',
+      'en': '3,564/KG',
       'kn': '3,564/ಕೆಜಿ',
-    },
-    '8etmx57z': {
-      'en': '^',
-      'kn': '^',
     },
     'lvfgiqhb': {
       'en': 'Filed 1',
       'kn': 'ಸಲ್ಲಿಸಿದ 1',
+    },
+    '9ibp176k': {
+      'en': '2.3%',
+      'kn': '',
     },
     'gv8fxsbq': {
       'en': 'Scan Plant',
@@ -297,6 +301,55 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '₹3,200/q',
       'kn': '₹3,200/ಕ್ವಾಟರ್',
     },
+    '423j3mlo': {
+      'en': 'Current Market',
+      'kn': '',
+    },
+    '9prmvfua': {
+      'en': 'Recent Diagnosis',
+      'kn': '',
+    },
+    'fq0ha5pk': {
+      'en': 'Solution : azoxystrobin, mancozeb, or chlorothalonil',
+      'kn': '',
+    },
+    '7uqze2du': {
+      'en': 'primarily a disease of stressed or senescing plants',
+      'kn': '',
+    },
+    '1fr95w0p': {
+      'en': 'Early blight ',
+      'kn': '',
+    },
+    '8nob7x5i': {
+      'en': 'Post ',
+      'kn': '',
+    },
+    'axzt1jde': {
+      'en': 'Sloved',
+      'kn': '',
+    },
+    'gciwzd00': {
+      'en':
+          'Solution : Use resistant varieties, and consider fungicide applications if needed. ',
+      'kn': '',
+    },
+    'gisn4dqf': {
+      'en': 'primarily a disease of stressed or senescing plants',
+      'kn': '',
+    },
+    'w3cohayc': {
+      'en': 'Leaf Rust',
+      'kn': '',
+    },
+    'ojwgqhug': {
+      'en': 'Ask',
+      'kn': '',
+    },
+    '859zdxyt': {
+      'en': 'Unsloved',
+      'kn': '',
+    },
     'hq0u4o8i': {
       'en': 'Home',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
@@ -315,10 +368,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // storagefinder
   {
-    '1h369wz6': {
-      'en': 'Storage ',
-      'kn': 'ಸಂಗ್ರಹಣೆ',
-    },
     'z2g0yn37': {
       'en': 'Kalaburagi',
       'kn': 'ಕಲಬುರಗಿ',
@@ -430,6 +479,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Shopes',
       'kn': 'ಅಂಗಡಿಗಳು',
     },
+    '55bl4qst': {
+      'en': 'Categories',
+      'kn': '',
+    },
     'pmmlicm6': {
       'en': 'Seeds',
       'kn': 'ಬೀಜಗಳು',
@@ -451,7 +504,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'kn': 'ನೀರಾವರಿ',
     },
     'lrcgs3ev': {
-      'en': 'organic',
+      'en': 'Organic',
       'kn': 'ಸಾವಯವ',
     },
     '4nk8s04l': {
@@ -555,108 +608,24 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
-  // phonenumber
+  // community
   {
-    'xogu2c6y': {
-      'en': 'Agri Sahayak',
-      'kn': 'ಕೃಷಿ ಸಹಾಯಕ್',
-    },
-    'cv0seljh': {
-      'en': 'Log in through your phone number',
-      'kn': 'ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ',
-    },
-    'fu6oxqy4': {
-      'en': 'Country',
-      'kn': 'ಪೂರ್ಣ ಹೆಸರು',
-    },
-    'h0hbtnym': {
-      'en': 'India ',
-      'kn': 'ಭಾರತ',
-    },
-    'amimmgxp': {
-      'en': 'Phone Number',
-      'kn': 'ದೂರವಾಣಿ ಸಂಖ್ಯೆ',
-    },
-    'ssrmh561': {
-      'en': '+91',
-      'kn': '',
-    },
-    'vfgfiyde': {
-      'en': 'Enter your phone number',
-      'kn': 'ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ',
-    },
-    'czmzlu41': {
-      'en': 'Option 1',
-      'kn': '',
-    },
-    'b399y7lu': {
-      'en':
-          'We\'ll send a one-time password to verify your phone number. Standard message rates may apply.',
-      'kn':
-          'ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ನಾವು ಒಂದು ಬಾರಿಯ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಕಳುಹಿಸುತ್ತೇವೆ. ಪ್ರಮಾಣಿತ ಸಂದೇಶ ದರಗಳು ಅನ್ವಯಿಸಬಹುದು.',
-    },
-    '1wvpxuuq': {
-      'en': 'Get OTP',
-      'kn': 'ಒಟಿಪಿ ಪಡೆಯಿರಿ',
-    },
-    'muthfihq': {
-      'en':
-          'By continuing, you agree to our Terms of Service and Privacy Policy',
-      'kn':
-          'ಮುಂದುವರಿಯುವ ಮೂಲಕ, ನೀವು ನಮ್ಮ ಸೇವಾ ನಿಯಮಗಳು ಮತ್ತು ಗೌಪ್ಯತಾ ನೀತಿಗೆ ಸಮ್ಮತಿಸುತ್ತೀರಿ.',
+    '8j5eklk5': {
+      'en': 'Community',
+      'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
-  // otp
+  // PostHarvesting
   {
-    '1g2oyh4g': {
-      'en': 'Verify Your Number',
-      'kn': '',
-    },
-    'wqpd8x8s': {
-      'en':
-          'Enter the OTP sent to your phone number. If you haven\'t received it, wait a few seconds or tap \'Resend OTP\'.',
-      'kn': '',
-    },
-    'l9nf0o1d': {
-      'en': 'Enter OTP',
-      'kn': '',
-    },
-    'tmpdp8w8': {
-      'en': 'Didn\'t receive the code?',
-      'kn': '',
-    },
-    'ujfq8avk': {
-      'en': 'Resend OTP',
-      'kn': '',
-    },
-    'rkgkqp8s': {
-      'en': ' in ',
-      'kn': '',
-    },
-    '69fx7gg0': {
-      'en': 'Verify & Continue',
-      'kn': '',
-    },
-  },
-  // storagefind
-  {
-    'kpb5wy1i': {
-      'en': 'Page Title',
-      'kn': '',
-    },
     'kg7i4hzs': {
       'en': 'Home',
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
-  // Home2
+  // Sahayak
   {
-    'o5qo0mc2': {
-      'en': 'Good Morning , vachan',
-      'kn': '',
-    },
-    'gn0y458h': {
-      'en': 'Kalburagi , Karnataka',
+    'rc2sjqof': {
+      'en': 'Page Title',
       'kn': '',
     },
     '998cif16': {
@@ -664,11 +633,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
-  // searchbar
+  // cropsection
   {
-    'va4kcku2': {
-      'en': 'TextField',
+    '7no8tw2o': {
+      'en': 'Select your crops',
       'kn': '',
+    },
+    'mdtrcjds': {
+      'en': 'Next',
+      'kn': '',
+    },
+    '6adli0fg': {
+      'en': 'Home',
+      'kn': 'ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ',
     },
   },
   // Miscellaneous

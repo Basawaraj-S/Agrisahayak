@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '/auth/base_auth_user_provider.dart';
 
+import '/main.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
@@ -76,13 +77,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? HomepageWidget() : SignupPageWidget(),
+          appStateNotifier.loggedIn ? NavBarPage() : SignupPageWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? HomepageWidget() : SignupPageWidget(),
+              appStateNotifier.loggedIn ? NavBarPage() : SignupPageWidget(),
         ),
         FFRoute(
           name: SignupPageWidget.routeName,
@@ -92,7 +93,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: HomepageWidget.routeName,
           path: HomepageWidget.routePath,
-          builder: (context, params) => HomepageWidget(),
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'Homepage')
+              : HomepageWidget(),
         ),
         FFRoute(
           name: FieldWidget.routeName,
@@ -110,29 +113,30 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => NearbyshopsWidget(),
         ),
         FFRoute(
-          name: PhonenumberWidget.routeName,
-          path: PhonenumberWidget.routePath,
-          builder: (context, params) => PhonenumberWidget(),
+          name: CommunityWidget.routeName,
+          path: CommunityWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'community')
+              : CommunityWidget(),
         ),
         FFRoute(
-          name: OtpWidget.routeName,
-          path: OtpWidget.routePath,
-          builder: (context, params) => OtpWidget(
-            mobileNumber: params.getParam(
-              'mobileNumber',
-              ParamType.String,
-            ),
-          ),
+          name: PostHarvestingWidget.routeName,
+          path: PostHarvestingWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'PostHarvesting')
+              : PostHarvestingWidget(),
         ),
         FFRoute(
-          name: StoragefindWidget.routeName,
-          path: StoragefindWidget.routePath,
-          builder: (context, params) => StoragefindWidget(),
+          name: SahayakWidget.routeName,
+          path: SahayakWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'Sahayak')
+              : SahayakWidget(),
         ),
         FFRoute(
-          name: Home2Widget.routeName,
-          path: Home2Widget.routePath,
-          builder: (context, params) => Home2Widget(),
+          name: CropsectionWidget.routeName,
+          path: CropsectionWidget.routePath,
+          builder: (context, params) => CropsectionWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

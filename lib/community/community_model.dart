@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'storagefind_widget.dart' show StoragefindWidget;
+import 'community_widget.dart' show CommunityWidget;
 import 'package:flutter/material.dart';
 
-class StoragefindModel extends FlutterFlowModel<StoragefindWidget> {
+class CommunityModel extends FlutterFlowModel<CommunityWidget> {
   @override
   void initState(BuildContext context) {}
 

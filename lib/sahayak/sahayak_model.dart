@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'home2_widget.dart' show Home2Widget;
+import 'sahayak_widget.dart' show SahayakWidget;
 import 'package:flutter/material.dart';
 
-class Home2Model extends FlutterFlowModel<Home2Widget> {
+class SahayakModel extends FlutterFlowModel<SahayakWidget> {
   @override
   void initState(BuildContext context) {}
 
