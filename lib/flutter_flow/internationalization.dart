@@ -560,8 +560,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Chat',
       'kn': 'ಚಾಟ್ ಮಾಡಿ',
     },
-    'l7yxp2h0': {
-      'en': 'Page Title',
+    'wy0gq3gz': {
+      'en': 'Nearbyshops',
       'kn': '',
     },
     'sjtens5e': {
@@ -584,6 +584,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'dmxxadvj': {
       'en': 'Post Harvesting',
+      'kn': '',
+    },
+    '6uncae10': {
+      'en': 'Storage \nFinder',
+      'kn': '',
+    },
+    '66awjq6d': {
+      'en': 'Near By\nBuyers',
+      'kn': '',
+    },
+    'a7qhox54': {
+      'en': 'Harvest\nWast ',
       'kn': '',
     },
     'raiyzhah': {

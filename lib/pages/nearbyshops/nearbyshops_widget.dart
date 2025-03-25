@@ -65,7 +65,7 @@ class _NearbyshopsWidgetState extends State<NearbyshopsWidget> {
           ),
           title: Text(
             FFLocalizations.of(context).getText(
-              'l7yxp2h0' /* Page Title */,
+              'wy0gq3gz' /* Nearbyshops */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter',
